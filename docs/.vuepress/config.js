@@ -9,10 +9,10 @@ import theme from './theme';
 import { enHeadConfig, frHeadConfig } from './configs/head';
 
 export default defineUserConfig({
-  lang: 'en-US', //or any other local (ex: "fr-FR")
+  lang: 'fr-FR', //or any other local (ex: "fr-FR")
   locales: {
-    '/': enHeadConfig,
-    '/fr/': frHeadConfig,
+    '/': frHeadConfig,
+    '/en/': enHeadConfig,
   },
   theme,
   shouldPrefetch: false,

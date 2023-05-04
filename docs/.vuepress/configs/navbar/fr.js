@@ -1,24 +1,24 @@
 import { navbar } from 'vuepress-theme-hope';
 
 export const frNavBarConfig = navbar([
-  '/fr/',
-  '/fr/page/a-propos/',
+  '/',
+  '/page/a-propos/',
   {
-    text: '[[hoverable-dropdown-dropdown-text_fr]]',
+    text: 'Menu déroulante sur passage de la souris',
     children: [
       {
-        text: '[[sublink-text-1_fr]]',
-        link: '/',
+        text: 'Un lien',
+        link: '/#lien-1',
       },
       {
-        text: '[[sublink-text-2_fr]]',
-        link: '/',
+        text: 'Un autre lien',
+        link: '/#lien-2',
       },
       {
-        text: '[[sublink-text-3_fr]]',
-        link: '/',
+        text: 'Un dernier lien',
+        link: '/#lien-3',
       },
     ],
   },
-  { text: '[[contact-page-link-text_fr]]', link: '/fr/page/contactez-nous/' },
+  { text: 'Lien vers page de contact', link: '/page/contactez-nous/' },
 ]);

@@ -1,19 +1,27 @@
-const websiteDomain = 'template-vuepress-next.netlify.app';
-const titleDefault = '[[Website default title EN]]';
-const titleDefault = 'Demo of static Vuepress website';
+const localeShort = 'en';
+const localeFull = 'en-US';
+const websiteDomain = 'mon-site-demo-tutoriel.madebyjeremie.fr';
+const titleDefault = 'A demo site for the VuePress tutorial';
 const descriptionDefault =
-  'A template Vuepress blog using Mr Hope very feature-rich theme';
-const themeColor = '#46b282';
-const repoLink = 'https://github.com/GitHubUsername/GitRepoName';
+  'This website was created while writting the tutorial to create a VuePress site.';
+const themeColor = '#2d55c1';
+const repoLink = 'https://github.com/JeremieLitzler/mon-site-demo-tutoriel';
 
 export const enHeadConfig = {
+  lang: localeFull,
   title: titleDefault,
   description: descriptionDefault,
   repo: repoLink,
   //https://v2.vuepress.vuejs.org/reference/config.html#head
   head: [
     ['meta', { property: 'og:title', content: titleDefault }],
-    ['meta', { property: 'og:url', content: `https://${websiteDomain}/` }],
+    [
+      'meta',
+      {
+        property: 'og:url',
+        content: `https://${websiteDomain}/${localeShort}/`,
+      },
+    ],
     [
       'meta',
       {

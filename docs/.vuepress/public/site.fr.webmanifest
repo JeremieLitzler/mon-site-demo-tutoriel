@@ -1,7 +1,7 @@
 {
-    "name": "[[Nom de l'application]]",
-    "short_name": "[[Nom court]]",
-    "description": "[[Description de l'application web]]",
+    "name": "Site démo tutoriel",
+    "short_name": "Démo tuto",
+    "description": "Ce site a été créé lors de la rédaction du tutoriel pour créer son site VuePress.",
     "icons": [{
         "src": "/icons/android-chrome-192x192.png",
         "sizes": "192x192",
@@ -13,8 +13,8 @@
         "type": "image/png",
         "purpose": "any maskable"
     }],
-    "start_url": "https://example.com/fr/",
+    "start_url": "https://mon-site-demo-tutoriel.madebyjeremie.fr/",
     "display": "fullscreen",
-    "theme_color": "#46b282",
-    "background_color": "#46b282"
+    "theme_color": "#2d55c1",
+    "background_color": "#2d55c1"
 }

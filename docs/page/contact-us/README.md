@@ -3,7 +3,13 @@ title: '[[contact-page-title]]'
 description: '[[contact-page-description]]'
 #date:
 head:
-  - [meta, { rel: canonical, href: https://example.com/page/contact-us/ }]
+  - [
+      meta,
+      {
+        rel: canonical,
+        href: https://mon-site-demo-tutoriel.madebyjeremie.fr/page/contact-us/,
+      },
+    ]
 article: false
 ---
 

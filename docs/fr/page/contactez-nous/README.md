@@ -5,7 +5,10 @@ description: '[[contact-page-description-fr]]'
 head:
   - [
       meta,
-      { rel: canonical, href: https://example.com/fr/page/contactez-nous/ },
+      {
+        rel: canonical,
+        href: https://mon-site-demo-tutoriel.madebyjeremie.fr/fr/page/contactez-nous/,
+      },
     ]
 article: false
 ---

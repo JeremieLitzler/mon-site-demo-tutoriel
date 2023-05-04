@@ -3,7 +3,13 @@ title: '[[thank-you-page-title]]'
 description: '[[thank-you-page-description]]'
 #date:
 head:
-  - [meta, { rel: canonical, href: https://example.com/page/thank-you/ }]
+  - [
+      meta,
+      {
+        rel: canonical,
+        href: https://mon-site-demo-tutoriel.madebyjeremie.fr/page/thank-you/,
+      },
+    ]
 article: false
 ---
 

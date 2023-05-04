@@ -8,7 +8,13 @@ description: '[[home-page-description_fr]]'
 heroImage: /icons/android-chrome-512x512.png
 tagline: '[[tag-line_fr]]'
 head:
-  - [meta, { rel: canonical, href: https://example.com/fr/ }]
+  - [
+      meta,
+      {
+        rel: canonical,
+        href: https://mon-site-demo-tutoriel.madebyjeremie.fr/fr/,
+      },
+    ]
 actions:
   - text: '[[secondary-some-action-1_fr]]'
     link: '#'

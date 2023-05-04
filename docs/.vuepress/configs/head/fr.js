@@ -1,10 +1,11 @@
 const localeShort = 'fr';
 const localeFull = 'fr-FR';
-const websiteDomain = 'template-vuepress-next.netlify.app';
-const titleDefault = '[[Titre par défaut du site web FR]]';
-const descriptionDefault = '[[Description par défaut du site web FR]]';
-const themeColor = '#46b282';
-const repoLink = 'https://github.com/GitHubUsername/GitRepoName';
+const websiteDomain = 'mon-site-demo-tutoriel.madebyjeremie.fr';
+const titleDefault = 'Un site de démo pour tutoriel VuePress';
+const descriptionDefault =
+  'Ce site a été créé lors de la rédaction du tutoriel pour créer son site VuePress.';
+const themeColor = '#2d55c1';
+const repoLink = 'https://github.com/JeremieLitzler/mon-site-demo-tutoriel';
 
 export const frHeadConfig = {
   lang: localeFull,
@@ -18,7 +19,7 @@ export const frHeadConfig = {
       'meta',
       {
         property: 'og:url',
-        content: `https://${websiteDomain}/${localeShort}/`,
+        content: `https://${websiteDomain}/`,
       },
     ],
     [
@@ -70,6 +71,6 @@ export const frHeadConfig = {
         href: '/icons/apple-touch-icon.png',
       },
     ],
-    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+    ['link', { rel: 'manifest', href: '/site.fr.webmanifest' }],
   ],
 };

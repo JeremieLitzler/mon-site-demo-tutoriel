@@ -1,7 +1,7 @@
 {
-    "name": "[[Application name]]",
-    "short_name": "[[Tiny app name]]",
-    "description": "[[Description of the application]]",
+    "name": "A demo site for the VuePress tutorial",
+    "short_name": "Tuto demo",
+    "description": "This website was created while writting the tutorial to create a VuePress site.",
     "icons": [{
         "src": "/icons/android-chrome-192x192.png",
         "sizes": "192x192",
@@ -13,8 +13,8 @@
         "type": "image/png",
         "purpose": "any maskable"
     }],
-    "start_url": "https://example.com/",
+    "start_url": "https://mon-site-demo-tutoriel.madebyjeremie.fr/en/",
     "display": "fullscreen",
-    "theme_color": "#46b282",
-    "background_color": "#46b282"
+    "theme_color": "#2d55c1",
+    "background_color": "#2d55c1"
 }

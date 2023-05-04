@@ -6,13 +6,13 @@ import { enNavBarConfig, frNavBarConfig } from './configs/navbar';
 
 export default hopeTheme({
   //path.resolve(__dirname, './theme'),
-  hostname: 'https://example.com',
+  hostname: 'https://mon-site-demo-tutoriel.madebyjeremie.fr',
   author: {
     name: 'Jeremie Litzler',
-    url: 'https://example.com',
+    url: 'https://mon-site-demo-tutoriel.madebyjeremie.fr',
   },
-  repo: 'GitHubUsername/GitRepoName',
-  docsRepo: 'https://github.com/GitHubUsername/GitRepoName',
+  repo: 'JeremieLitzler/mon-site-demo-tutoriel',
+  docsRepo: 'https://github.com/JeremieLitzler/mon-site-demo-tutoriel',
   docsBranch: 'main',
   docsDir: 'docs',
   editLinkPattern: ':repo/edit/:branch/:path',
@@ -31,17 +31,17 @@ export default hopeTheme({
   },
   displayFooter: true,
   footer:
-    'GPLv3 Licensed | <a href="https://example.com/page/terms" title="Read terms and conditions of this website">Terms</a>',
+    'Licence GPLv3 | <a href="https://mon-site-demo-tutoriel.madebyjeremie.fr/page/mentions-legales" title="Lire les mentions légales">Mentions légales</a>',
   plugins: {
     blog: true,
-    comment: {
-      provider: 'Giscus',
-      repo: 'GitHubUsername/GitRepoName',
-      repoId: '[[Giscus-repo-id]]',
-      category: 'Comments',
-      categoryId: '[[Giscus-category-id]]',
-      mapping: 'title',
-    },
+    // comment: {
+    //   provider: 'Giscus',
+    //   repo: 'JeremieLitzler/mon-site-demo-tutoriel',
+    //   repoId: '[[Giscus-repo-id]]',
+    //   category: 'Comments',
+    //   categoryId: '[[Giscus-category-id]]',
+    //   mapping: 'title',
+    // },
     mdEnhance: {
       linksCheck: 'always',
       //See https://vuepress-theme-hope.github.io/v2/guide/markdown/align.html

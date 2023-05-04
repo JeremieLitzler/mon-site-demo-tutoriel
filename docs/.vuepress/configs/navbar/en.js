@@ -1,24 +1,24 @@
 import { navbar } from 'vuepress-theme-hope';
 
 export const enNavBarConfig = navbar([
-  '/',
-  '/page/about/',
+  '/en/',
+  '/en/page/about/',
   {
-    text: '[[hoverable-dropdown-dropdown-text]]',
+    text: 'Dropdown menu on hover',
     children: [
       {
-        text: '[[sublink-text-1]]',
-        link: '/',
+        text: 'A link',
+        link: '/en/#link-1',
       },
       {
-        text: '[[sublink-text-2]]',
-        link: '/',
+        text: 'Another link',
+        link: '/en/#link-2',
       },
       {
-        text: '[[sublink-text-3]]',
-        link: '/',
+        text: 'One last link',
+        link: '/en/#link-3',
       },
     ],
   },
-  { text: '[[contact-page-link-text]]', link: '/page/contact-us/' },
+  { text: 'Link to contact page', link: '/en/page/contact-us/' },
 ]);

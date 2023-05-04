@@ -3,7 +3,13 @@ title: Terms and Conditions
 description: This is the terms and conditions page
 #date:
 head:
-  - [meta, { rel: canonical, href: https://example.com/page/terms/ }]
+  - [
+      meta,
+      {
+        rel: canonical,
+        href: https://mon-site-demo-tutoriel.madebyjeremie.fr/page/terms/,
+      },
+    ]
 article: false
 ---
 
@@ -11,7 +17,7 @@ _Vous êtes français ? [Les mentions légales se trouvent ici !](../../fr/page/
 
 ## Welcome to [[Website default title EN]]!
 
-These terms and conditions outline the rules and regulations for the use of [[Website default title EN]]'s Website, located at https://example.com/.
+These terms and conditions outline the rules and regulations for the use of [[Website default title EN]]'s Website, located at https://mon-site-demo-tutoriel.madebyjeremie.fr/.
 
 By accessing this website I assume you accept these terms and conditions. Do not continue to use [[Website default title EN]] if you do not agree to take all of the terms and conditions stated on this page.
 
