@@ -1,0 +1,20 @@
+{
+    "name": "[[Nom de l'application]]",
+    "short_name": "[[Nom court]]",
+    "description": "[[Description de l'application web]]",
+    "icons": [{
+        "src": "/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }, {
+        "src": "/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }],
+    "start_url": "https://example.com/fr/",
+    "display": "fullscreen",
+    "theme_color": "#46b282",
+    "background_color": "#46b282"
+}
