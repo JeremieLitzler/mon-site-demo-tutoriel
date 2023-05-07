@@ -18,14 +18,14 @@ export default hopeTheme({
   editLinkPattern: ':repo/edit/:branch/:path',
   logo: '/icons/favicon-32x32.png',
   logoDark: '/icons/dark-favicon-32x32.png',
-  darkmode: "enable",
+  darkmode: 'enable',
   locales: {
     '/': {
-      navbar: enNavBarConfig,
+      navbar: frNavBarConfig,
       sidebar: false,
     },
-    '/fr/': {
-      navbar: frNavBarConfig,
+    '/en/': {
+      navbar: enNavBarConfig,
       sidebar: false,
     },
   },
