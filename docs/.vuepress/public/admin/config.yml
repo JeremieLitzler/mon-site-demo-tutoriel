@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: UsernameGitHub/RepositoryName
+  repo: JeremieLitzler/mon-site-demo-tutoriel
   branch: main # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: 'docs/.vuepress/public/images'
