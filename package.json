@@ -1,9 +1,9 @@
 {
-  "name": "journal",
-  "version": "1.0.6",
+  "name": "mon-site-demo-tutoriel",
+  "version": "1.0.7",
   "description": "A template for Vuepress site using Mr Hope's theme",
   "main": "index.js",
-  "repository": "https://github.com/Puzzlout/TemplateVuepress",
+  "repository": "https://github.com/JeremieLitzler/mon-site-demo-tutoriel",
   "author": "Jérémie Litzler <puzzlout@gmail.com>",
   "license": "GPL V3",
   "private": true,
