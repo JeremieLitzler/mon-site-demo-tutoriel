@@ -13,7 +13,7 @@ head:
 article: false
 ---
 
-_Vous êtes français ? [Les mentions légales se trouvent ici !](../../fr/page/mentions-legales/README.md)_
+_Vous êtes français ? [Les mentions légales se trouvent ici !](../../../page/mentions-legales/README.md)_
 
 ## Welcome to [[Website default title EN]]!
 
