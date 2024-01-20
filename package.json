@@ -1,6 +1,6 @@
 {
   "name": "mon-site-demo-tutoriel",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "A template for Vuepress site using Mr Hope's theme",
   "main": "index.js",
   "repository": "https://github.com/JeremieLitzler/mon-site-demo-tutoriel",
@@ -18,6 +18,6 @@
     "vuepress-vite": "2.0.0-beta.67"
   },
   "dependencies": {
-    "vuepress-theme-hope": "2.0.0-beta.247"
+    "vuepress-theme-hope": "2.0.0-beta.248"
   }
 }
